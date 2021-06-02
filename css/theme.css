@@ -1,0 +1,208 @@
+/* width, height, margin, padding, font-size, border-radius */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+content {
+  max-width: 1280px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 100%;
+  padding: 24px 0;
+  margin: 12px 0;
+}
+
+*::-moz-focus-outer, 
+*::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* -- mainmenu -- */
+
+.mainmenu {
+  height: 80px;
+  padding: 6px;
+  margin: 0;
+}
+
+.mainmenu .icon {
+  min-height: 80px;
+  min-width: 80px;
+  border-radius: 100%;
+}
+
+.mainmenu .phone {
+  min-height: 100%;
+  min-width: 250px;
+}
+
+.mainmenu .phone div {
+  height: 50%;
+}
+
+.mainmenu p {
+  font-size: 25px;
+}
+.mainmenu>p{
+  margin-top: -8px;
+}
+
+.mainmenu .phone div img {
+  max-height: 25px;
+  max-width: 25px;
+}
+
+.mainmenu .phone div p {
+  font-size: 18px;
+}
+
+/* -- logo -- */
+
+.logo {
+  padding: 6px;
+}
+
+.logo div {
+  padding-top: 24px;
+}
+
+.logo div p {
+  font-size: 28px;
+}
+
+.logo form {
+  height: 60%;
+  min-height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 20px;
+}
+
+.logo form p {
+  font-size: 24px;
+}
+
+.logo form div {
+  min-width: 100%;
+}
+
+.logo form input[type="text"]{
+  width: 100%;
+  height: 30px;
+  margin: 0 0 4px 0;
+  border-radius: 4px;
+}
+
+.logo form input[type="submit"] {
+  height: 36px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+/* -- grid -- */
+
+.grid {
+  padding: 6px;
+}
+
+.grid p:nth-child(1) {
+  font-size: 34px;
+  padding-top: 12px;
+}
+
+.grid .line {
+  width: 100%;
+  min-height: 240px;
+}
+
+.grid .line div {
+  min-width: 30%;
+  max-width: 240px;
+  padding:  12px 0 24px 0;
+  margin: 0 auto;
+}
+
+.grid .line .icon {
+  width: 100%;
+  min-height: 180px;
+}
+
+/* -- block -- */
+
+.block {
+  border-radius: 28px;
+}
+
+.block>div {
+  width: 50%;
+  padding: 0 24px;
+}
+
+.block div p {
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.block div p:nth-child(1) {
+  font-size: 24px;
+}
+
+.block .slider {
+  overflow: hidden;
+}
+
+.block .slider .window {
+  max-height: 86%;
+  width: 100%;
+}
+
+.block .slider .line {
+  height: 40px;
+  width: 100%;
+}
+
+.block .slider .window img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  border-radius: 30px;
+}
+
+.block .slider .line img {
+  height: 100%;
+  width: auto;
+  margin: 12px 2px 0px 2px;
+}
+
+
+/* -- lightbox -- */
+
+.lightbox {
+  height: 100vh;
+  width: 100vw;
+}
+
+.lightbox img {
+  max-height: 86vh;
+  max-width: 90vw;
+}
+
+/* -- cursor -- */
+
+#cursor {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+}

@@ -1,0 +1,195 @@
+* { 
+  position: relative;
+}
+
+body {
+
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.splash {
+  
+}
+
+.item {
+  
+}
+
+/*
+  основной: #a70524
+  темный: #980b2a
+  светлый: #f3f3f3
+  второй: #1ec10a
+  третий: #fff8b8
+*/
+
+/* -- mainmenu -- */
+
+.mainmenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainmenu .icon { 
+
+}
+
+.mainmenu .phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainmenu .phone div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainmenu p {
+  display: flex;
+  align-items: center;
+}
+
+.mainmenu .phone div img {
+  
+}
+
+.mainmenu .phone div p {
+
+}
+
+/* -- logo -- */
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo div p {
+
+}
+
+.logo div p:nth-child(1) {
+
+}
+
+.logo form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo form p {
+
+}
+
+.logo form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo form input[type="text"] {
+
+}
+
+.logo form input[type="submit"] {
+
+}
+
+/* -- grid -- */
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid p {
+
+}
+
+.grid .line {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.grid .line div {
+  
+}
+
+.grid .line .icon {
+
+}
+
+/* -- block -- */
+
+.block {
+  display: flex;
+}
+
+.block div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block .slider {
+  justify-content: center;
+}
+
+.block .slider .window {
+  display: block;
+  overflow: hidden;
+}
+
+.block .slider .line {
+  display: block;
+}
+
+.block div p:nth-child(1) {
+
+}
+
+.block .slider .window img {
+  
+}
+
+.block .slider .line img.clicked {
+  opacity: 1.0;
+}
+
+/* -- lightbox -- */
+
+.lightbox {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.lightbox.active {
+  z-index: 99;
+}
+
+/* -- cursor -- */
+  
+#cursor {
+  position: absolute;
+  pointer-events:none;
+  z-index: 100;
+}
+#cursor.down {
+  transform: scale(0.8);
+}

@@ -1,0 +1,28 @@
+@media (max-width: 800px) {
+  .logo {
+    flex-direction: column;
+  }
+  
+  .logo form {
+    margin: 0 auto;
+  }
+  
+  .block {
+    flex-direction: column;
+  }
+  
+  .block>div {
+    width: 90% !important;
+  }
+  
+  .block .slider {
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .block .slider .line img {
+    margin: 0 !important;
+  }
+  
+  
+}
