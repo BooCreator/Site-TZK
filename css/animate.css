@@ -1,0 +1,108 @@
+.mainmenu .icon:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.1) rotate(-360deg);
+}
+
+.logo form input[type="text"] {
+  transition-duration: 1s;
+  transition-property: border-color;
+}
+.logo form input[type="text"]:hover {
+  border-color: deepskyblue;
+}
+.logo form input[type="text"]:focus {
+  border-color: #1ec10a;
+}
+
+.logo form input[type="submit"] {
+  transition-duration: 0.2s;
+}
+.logo form input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+.logo form input[type="submit"]:focus,
+.logo form input[type="submit"]:active {
+  background-color: #a70524;
+}
+
+.grid .line div p {
+  transition-duration: 0.3s;
+}
+
+.grid .line div:hover p {
+  color: #a70524;
+  text-shadow: lightgray 3px 3px 0;
+}
+
+.grid .line .item1:hover p {
+  transform: scale(1.2) rotate(-3deg);
+}
+.grid .line .item2:hover p {
+  transform: scale(1.2) rotate(3deg);
+}
+.grid .line .item3:hover p {
+  transform: scale(1.2) rotate(-2deg);
+}
+.grid .line .item4:hover p {
+  transform: scale(1.2) rotate(2deg);
+}
+.grid .line .item5:hover p {
+  transform: scale(1.2) rotate(-3deg);
+}
+.grid .line .item6:hover p {
+  transform: scale(1.2) rotate(3deg);
+}
+
+.grid .line div div {
+  transition-duration: 0.3s;
+}
+.grid .line .item1:hover div {
+  transform: scale(1.1) rotate(-3deg);
+}
+.grid .line .item2:hover div {
+  transform: scale(1.1) rotate(3deg);
+}
+.grid .line .item3:hover div {
+  transform: scale(1.1) rotate(-2deg);
+}
+.grid .line .item4:hover div {
+  transform: scale(1.1) rotate(2deg);
+}
+.grid .line .item5:hover div {
+  transform: scale(1.1) rotate(-3deg);
+}
+.grid .line .item6:hover div {
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* -- block -- */
+
+.block .slider img {
+  transition-duration: 0.2s;
+  opacity: 0.4;
+}
+
+.block .slider .window img {
+  opacity: 1.0;
+}
+
+.block .slider img:hover {
+  transform: scale(0.92);
+  opacity: 1.0;
+}
+
+.block .slider img.active:hover {
+  transform: scale(1.0);
+  opacity: 0.8;
+}
+
+/* -- lightbox -- */
+
+.lightbox {
+  transition-duration: 0.6s;
+  opacity: 0;
+}
+
+.lightbox.active {
+  opacity: 1;
+}

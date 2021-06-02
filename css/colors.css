@@ -1,0 +1,155 @@
+/* color, cursor, background, text, font, border */
+
+body {
+  cursor: none;
+}
+
+
+.splash {
+  background-color: #f3f3f3;
+}
+
+/*
+  основной: #a70524
+  темный: #980b2a
+  светлый: #f3f3f3
+  второй: #1ec10a
+  третий: #fff8b8
+*/
+
+/* -- mainmenu -- */
+
+.mainmenu .icon {
+  background-image: url(../img/blank.png);
+  background-size: 100%;
+}
+
+.mainmenu p {
+  color: #980b2a;
+  text-align: left;
+}
+
+.mainmenu .phone div p {
+  font-weight: bold;
+}
+
+/* -- logo -- */
+
+.logo {
+  background-image: url(../img/background.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.logo div {
+  text-align: center;
+}
+
+.logo div p {
+  font-style: italic;
+}
+
+.logo div p:nth-child(1) {
+  font-weight: bold;
+  color: #a70524;
+}
+
+.logo form {
+  background-color: #fff8b8dd;
+  border-color: #a70524;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.logo form p {
+  color: #a70524;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.logo form input[type="text"] {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  outline:0;
+}
+
+.logo form input[type="submit"] {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  background-color: #1ec10a;
+  outline:0;
+  font-weight: bold;
+}
+
+/* -- grid -- */
+
+.grid {
+  text-align: center;
+}
+
+.grid p {
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.grid .line .icon {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid .line .item1 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon1.png);
+}
+.grid .line .item2 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon2.png);
+}
+.grid .line .item3 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon3.png);
+}
+.grid .line .item4 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon4.png);
+}
+.grid .line .item5 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon5.png);
+}
+.grid .line .item6 .icon {
+  background-image: url(https://potolki-v-mogileve.by/img/icons/icon6.png);
+}
+
+/* -- block -- */
+
+.block {
+  border-color: yellow;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.block div {
+  text-align: center;
+}
+
+.block div p:nth-child(1) {
+  color: #980b2a;
+}
+
+/* -- lightbox -- */
+
+.lightbox {
+  background-color: #000000aa;
+}
+
+/* -- cursor -- */
+  
+#cursor {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+#cursor.down {
+  border-width: 3px;
+}
